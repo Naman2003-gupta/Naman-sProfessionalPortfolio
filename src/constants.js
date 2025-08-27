@@ -52,7 +52,7 @@ import npmLogo from './assets/work_logo/npm.png';
 import webverLogo from './assets/work_logo/bonvoyage.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/Ecommerce.png';
-import removebgLogo from './assets/work_logo/gemini.jpg';
+import removebgLogo from './assets/work_logo/Gemini.jpg';
 
 
 export const SkillsInfo = [
