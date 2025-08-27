@@ -49,7 +49,7 @@ import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/NAMANCORPORATIONBankk.png';
 import taskremLogo from './assets/work_logo/AI-Resume .png';
 import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/bonvoyage.png';
+import webverLogo from './assets/work_logo/BonVoyage.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/Ecommerce.png';
 import removebgLogo from './assets/work_logo/Gemini.jpg';
