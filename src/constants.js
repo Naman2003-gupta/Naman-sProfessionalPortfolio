@@ -35,7 +35,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/BharatSkillz.png';
-import agcLogo from './assets/company_logo/TeachNook.png';
+import agcLogo from './assets/company_logo/Teachnook.png';
 import newtonschoolLogo from './assets/company_logo/Sparks.jpeg';
 
 // Education Section Logo's
