@@ -44,15 +44,15 @@ import bsaLogo from './assets/education_logo/DAV.jpeg';
 import vpsLogo from './assets/education_logo/Hilltop.jpeg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/Chat.png';
+import githubdetLogo from './assets/ember.png';
 import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/NAMANCORPORATIONBankk.png';
-import taskremLogo from './assets/work_logo/AI-Resume .png';
-import npmLogo from './assets/work_logo/npm.png';
+import movierecLogo from './assets/bank.png';
+import taskremLogo from './assets/dr.png';
+import npmLogo from './assets/ainbh.png';
 import webverLogo from './assets/work_logo/BonVoyage.png';
-import cmLogo from './assets/work_logo/cm.png';
+import cmLogo from './assets/quantum.png';
 import imagesearchLogo from './assets/work_logo/Ecommerce.png';
-import removebgLogo from './assets/work_logo/Gemini.jpg';
+import removebgLogo from './assets/notes.png';
 
 
 export const SkillsInfo = [
@@ -201,11 +201,11 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Realtime Chatting Application",
+      title: "Ember - AI Health Assistant",
       description:
-        "A real-time chat application built using Spring Boot and WebSocket, designed to enable seamless instant messaging between users. It supports multiple chat rooms, live message broadcasting, and user-friendly interactions. The backend ensures reliable communication with WebSocket protocol, while the frontend provides a clean and responsive interface for smooth chatting experience.",
+        "Ember is an AI-powered health assistant built with the DeepSeek API and the MERN stack, designed to provide smart, real-time health guidance through natural conversations. It combines intelligent insights with a clean, scalable web experience for accessible digital healthcare support",
       image: githubdetLogo,
-      tags: ["SpringBoot","HTML", "CSS", "JavaScript","Kafka" ,"API"],
+      tags: ["DeepSeekAPI","ReactJs", "NodeJs", "MongoDB","ExpressJs" ,"EmailJs"],
       github: "https://github.com/Naman2003-gupta/ChatApplication-with-SpringBoot",
       webapp: "https://app.netlify.com/projects/springdgchat//",
     },
@@ -221,7 +221,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Online Banking System",
+      title: "Corporation Bank - Singapore Project",
       description:
         "A secure and user-friendly web-based banking application designed to simplify everyday financial transactions. The system was developed using HTML, CSS, PHP, and JavaScript, focusing on both functionality and an intuitive interface.",
       image: movierecLogo,
@@ -231,9 +231,9 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "Github Link Finder Using API",
+      title: "AINBH",
       description:
-        "A simple yet powerful tool that allows users to quickly find and extract GitHub profile links using the GitHub API. By entering a username or query, the application fetches accurate profile details and provides direct access to repositories, followers, and other related links. This project demonstrates API integration, JSON data handling, and a clean user-friendly interface.",
+        "AINBH is a lightweight tool built with Node.js, JavaScript, and TypeScript that demonstrates core AI concepts through neural network simulations. It also illustrates how AI can integrate with blockchain systems for secure, decentralized intelligence..",
       image: npmLogo,
       tags: ["React JS", "Node.js", "NPM", "Validation"],
       github: "https://github.com/Naman2003-gupta/GithubFinder",
@@ -241,11 +241,11 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "AI Resume Builder Chrome Extension Tool",
+      title: "Dr Jadon's Website - NextJs With Typescript",
       description:
-        "A lightweight Chrome Extension that automates email extraction from web pages, streamlining recruiter outreach and lead generation.",
+        "Dr. Gaurav Jadon is a full-stack web application built with Next.js and TypeScript, using React.js for a modern, responsive frontend and MongoDB for a scalable backend. The platform delivers a fast, secure, and efficient user experience with a clean, production-ready architecture.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      tags: ["NextJS", "NodeJS", "ReactJS", "MongoDB", "TypeScript"],
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
@@ -261,13 +261,13 @@ export const SkillsInfo = [
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "Quantum-Explorer",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+        "An ed-tech platform An online file explorer built with Node.js that allows users to browse, manage, and organize files through a fast and intuitive web interface. It provides secure server-side file handling with real-time access from the browser.where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
       image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "https://github.com/Naman2003-gupta/OnlineFileExplorer",
+      webapp: "",
     },
     {
       id: 7,
@@ -281,12 +281,12 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Gemini API",
+      title: "NKM-NotesAPP",
       description:
-        "Developed a real-time voice-to-text application using the Gemini API, enabling seamless speech recognition and instant transcription. Integrated API key authentication for secure access and optimized for fast, accurate voice processing.",
+        "Developed a realNKM Notes App is a MERN stack application that lets users create, edit, and manage notes in a secure and responsive environment. It offers real-time data handling with a clean UI for efficient and organized note-taking.-time voice-to-text application using the Gemini API, enabling seamless speech recognition and instant transcription. Integrated API key authentication for secure access and optimized for fast, accurate voice processing.",
       image: removebgLogo,
       tags: ["React JS", "API", "RealTime Audio LIstener API","Google Gemini API ","HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+      github: "",
+      webapp: "",
     },
   ];  
