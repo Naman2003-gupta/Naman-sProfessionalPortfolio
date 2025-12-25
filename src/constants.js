@@ -45,7 +45,7 @@ import vpsLogo from './assets/education_logo/Hilltop.jpeg';
 
 // Project Section Logo's
 import githubdetLogo from './assets/ember.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import csprepLogo from './assets/sfms.png';
 import movierecLogo from './assets/bank.png';
 import taskremLogo from './assets/dr.png';
 import npmLogo from './assets/ainbh.png';
@@ -211,9 +211,9 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "BrainQuest",
+      title: "Student Fees Management System - SFMS",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Developed a Student Fees Management System using the MERN stack with Next.js, Tailwind CSS, and TypeScript. The system streamlines fee tracking, student records, and payment status with a fully integrated backend.-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Naman2003-gupta/BrainQuest",
