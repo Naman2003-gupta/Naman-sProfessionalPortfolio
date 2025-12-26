@@ -185,7 +185,7 @@ export const SkillsInfo = [
       date: "Sept 2020 - Aug 2021",
       grade: "87.2%",
      desc: "I completed my class 12 education from DAV College Banikhet, , under the HPBOSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(X) - PCM with Computer Science",
+      degree: "CBSE(XII) - PCM with Computer Science",
     },
     {
       id: 2,
