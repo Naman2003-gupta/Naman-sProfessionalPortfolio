@@ -34,6 +34,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
+import amcLogo from './assets/Kretivanlogo.png';
 import webverseLogo from './assets/company_logo/BharatSkillz.png';
 import agcLogo from './assets/company_logo/Teachnook.png';
 import newtonschoolLogo from './assets/company_logo/Sparks.jpeg';
@@ -114,11 +115,39 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
+      id: 1,
+      img: amcLogo,
+      role: "Full Stack Engineer Intern",
+      company: "Kreativan Technologies",
+      date: "Sep 2025 - Present",
+      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+     skills: [
+  "ReactJS",
+  "Redux",
+  "JavaScript",
+  "Tailwind CSS",
+  "HTML",
+  "CSS",
+  "SQL",
+  "Bootstrap",
+  "PHP",
+  "Node.js",
+  "Express.js",
+  "REST APIs",
+  "Git & GitHub",
+  "Responsive Web Design",
+  "API Integration",
+  "Database Design",
+  "Debugging & Optimization"
+]
+
+    },
+    {
       id: 0,
       img: webverseLogo,
       role: "Business Analyst",
       company: "BharatSkillz",
-      date: "April 2025 - Present",
+      date: "April 2025 - Sep 2025",
       desc: "Bridged business strategy with technology by developing scalable web applications using MongoDB, Express, React, and Node.js. Delivered responsive UIs, RESTful APIs, and optimized workflows while collaborating with cross-functional teams in agile environments. Focused on data-driven insights to align business goals with technical solutions.",
       skills: [
         "HTML",
