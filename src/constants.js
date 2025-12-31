@@ -54,6 +54,7 @@ import webverLogo from './assets/work_logo/BonVoyage.png';
 import cmLogo from './assets/quantum.png';
 import imagesearchLogo from './assets/work_logo/Ecommerce.png';
 import removebgLogo from './assets/notes.png';
+import smallCopperLogo from './assets/smallcopper.png';
 
 
 export const SkillsInfo = [
@@ -248,6 +249,25 @@ export const SkillsInfo = [
       github: "https://github.com/Naman2003-gupta/BrainQuest",
       webapp: "https://brainquestt.netlify.app//",
     },
+   {
+  id: 1,
+  title: "SmallCopper – Company Website",
+  description:
+    "Designed and developed the official website for SmallCopper using the MERN stack. The platform delivers a modern, responsive, and performance-optimized user experience, showcasing the company’s services, brand identity, and digital presence. Built with a scalable architecture, the website ensures seamless navigation, fast load times, and cross-device compatibility. The project focuses on clean UI, maintainable code, and efficient backend integration to support future business growth and feature expansion.",
+  image: smallCopperLogo,
+  tags: [
+    "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "Next.js",
+    "Tailwind CSS",
+    "JavaScript"
+  ],
+  github: "https://github.com/your-github-repo-link",
+  webapp: "https://smallcopper.com/"
+},
+
     {
       id: 2,
       title: "Corporation Bank - Singapore Project",
