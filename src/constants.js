@@ -51,7 +51,7 @@ import vpsLogo from './assets/education_logo/Hilltop.jpeg';
 // Project Section Logo's
 import githubdetLogo from './assets/ember.png';
 import csprepLogo from './assets/sfms.png';
-import movierecLogo from './assets/gtf.png';
+import gtf from './assets/GTF.png';
 import taskremLogo from './assets/dr.png';
 import npmLogo from './assets/ainbh.png';
 import webverLogo from './assets/work_logo/BonVoyage.png';
@@ -279,7 +279,7 @@ export const SkillsInfo = [
       title: "GlobalTrust-Financial",
       description:
         "A secure and user-friendly web-based banking application designed to simplify everyday financial transactions. The system was developed using HTML, CSS, PHP, and JavaScript, focusing on both functionality and an intuitive interface.",
-      image: movierecLogo,
+      image: gtf,
       tags: ["Php", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Naman2003-gupta/Online-Banking-System-By-Naman-Gupta",
       webapp: "https://namancorporationbank.netlify.app/#/",
