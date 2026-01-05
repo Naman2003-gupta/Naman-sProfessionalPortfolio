@@ -44,10 +44,14 @@ import glaLogo from './assets/education_logo/LPU.png';
 import bsaLogo from './assets/education_logo/DAV.jpeg';
 import vpsLogo from './assets/education_logo/Hilltop.jpeg';
 
+
+
+
+
 // Project Section Logo's
 import githubdetLogo from './assets/ember.png';
 import csprepLogo from './assets/sfms.png';
-import movierecLogo from './assets/bank.png';
+import movierecLogo from './assets/gtf.png';
 import taskremLogo from './assets/dr.png';
 import npmLogo from './assets/ainbh.png';
 import webverLogo from './assets/work_logo/BonVoyage.png';
@@ -55,6 +59,8 @@ import cmLogo from './assets/quantum.png';
 import imagesearchLogo from './assets/work_logo/Ecommerce.png';
 import removebgLogo from './assets/notes.png';
 import smallCopperLogo from './assets/smallcopper.png';
+import cryptoLogo from './assets/crypto.png';
+import metayugLogo from './assets/metayug.png';
 
 
 export const SkillsInfo = [
@@ -251,7 +257,7 @@ export const SkillsInfo = [
     },
    {
   id: 1,
-  title: "SmallCopper – Company Website",
+  title: "smallcopper.com",
   description:
     "Designed and developed the official website for SmallCopper using the MERN stack. The platform delivers a modern, responsive, and performance-optimized user experience, showcasing the company’s services, brand identity, and digital presence. Built with a scalable architecture, the website ensures seamless navigation, fast load times, and cross-device compatibility. The project focuses on clean UI, maintainable code, and efficient backend integration to support future business growth and feature expansion.",
   image: smallCopperLogo,
@@ -270,11 +276,11 @@ export const SkillsInfo = [
 
     {
       id: 2,
-      title: "Corporation Bank - Singapore Project",
+      title: "GlobalTrust-Financial",
       description:
         "A secure and user-friendly web-based banking application designed to simplify everyday financial transactions. The system was developed using HTML, CSS, PHP, and JavaScript, focusing on both functionality and an intuitive interface.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+      tags: ["Php", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/Naman2003-gupta/Online-Banking-System-By-Naman-Gupta",
       webapp: "https://namancorporationbank.netlify.app/#/",
     },
@@ -300,12 +306,12 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "BonVoyage",
+      title: "MetaYug",
       description:
-        "Bon Voyage is a tourism project built with the MERN stack, offering eco-friendly stays, tour packages, and community trips. It features a modern React-based UI, secure booking with Node.js and Express, and efficient data management using MongoDB to deliver a seamless travel experience",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "React JS", "Node.js"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
+        "Metayug is a sleek architecture portfolio platform showcasing bespoke facades and iconic structures with precision craftsmanship. Built with a modern MERN stack, it delivers a smooth, responsive, and visually striking experience from design to execution.eatures a modern React-based UI, secure booking with Node.js and Express, and efficient data management using MongoDB to deliver a seamless travel experience",
+      image: metayugLogo,
+      tags: ["Next.js", "React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/Naman2003-gupta/MetaYug",
       webapp: "https://bonvoyage.com/",
     },
     {
@@ -339,3 +345,15 @@ export const SkillsInfo = [
       webapp: "",
     },
   ];  
+  export const FreeLanceProjects = [
+  {
+      id: 0,
+      title: "Crypto-Project",
+      description:
+        "This crypto gaming project offers a gamified gambling experience where users invest real money to receive virtual coins. These coins can be used to play games, earn rewards, and progress through multiple levels. Each level increases difficulty and reward value. The goal is to create a fun and competitive earning ecosystem.Ember is an AI-powered health assistant built with the DeepSeek API and the MERN stack, designed to provide smart, real-time health guidance through natural conversations. It combines intelligent insights with a clean, scalable web experience for accessible digital healthcare support",
+      image: cryptoLogo,
+      tags: ["DeepSeekAPI","ReactJs", "NodeJs", "MongoDB","ExpressJs" ,"EmailJs"],
+      github: "https://github.com/Naman2003-gupta/CryptoProject",
+      webapp: "https://app.netlify.com/projects/springdgchat//",
+    },
+  ];
